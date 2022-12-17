@@ -1,3 +1,0 @@
-create for loop|x = 3 $n for i in range(x): $n$t print(i) $n # Output: $n 1 $n 2 $n 3
-create function with parameter {x}|def function({x}):$n $t pass
-create function|def function(): $n $t pass

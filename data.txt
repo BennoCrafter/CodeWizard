@@ -1,0 +1,7 @@
+create for loop;x = 3 $n for i in range(x): $n$t print(i) $n # Output: $n 1 $n 2 $n 3
+create function;def function(): $n $t pass
+create variable;my_variable = "Hello World"
+create list;my_list = ["Hello","World"]
+print an element of a list; my_list = ["Hello","World"] $n print(my_list[0]) $n print(my_list[1] $n # Output: $n Hello $n World
+create function with parameter {x};def function({x}):$n $t pass
+save every single line of a file into a list;file = open('filename.txt').read().split("\n") $n print(file)
