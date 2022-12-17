@@ -1,0 +1,2 @@
+Feedback: CORRECT!   ||||   Deeper Feedback: Question: how to read out a file and save every single line into an elemnt in a list Expected ask: save every single line of a file into a list Expected answer: file = open('filename.txt').read().split("\n") 
+ print(file)

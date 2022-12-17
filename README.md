@@ -12,3 +12,4 @@ Until now its not very well, because it haven't much data. But i work hardly on 
 - print an element of a list
 - create function
 - save every single line of a file into a list
+- write into a file
