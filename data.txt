@@ -14,4 +14,4 @@ add a new key-value pair to a dictionary;my_dict = {'a': 1, 'b': 2} $n my_dict['
 create a class;class MyClass: $n $t def __init__(self): $t $t self.my_variable = "Hello World" $n my_object = MyClass() $n print(my_object.my_variable) $n # Output: Hello World
 import a module;import math $n result = math.sqrt(16) $n print(result) $n # Output: 4.0
 create a dataframe;import pandas as pd $n # Create a DataFrame $n data = {'Name': ['John', 'Jane', 'Jack', 'Jill'], $n $t 'Age': [23, 25, 21, 18], $n $t 'Gender': ['M', 'F', 'M', 'F']} $n df = pd.DataFrame(data) $n # print DataFrame $n print(df)
-add a new element to a Python set:;my_set = {1, 2, 3} $n my_set.add(4) $n $n print(my_set)
+add a new element to a Python set;my_set = {1, 2, 3} $n my_set.add(4) $n $n print(my_set)

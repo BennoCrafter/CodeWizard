@@ -13,3 +13,12 @@ Until now its not very well, because it haven't much data. But i work hardly on 
 - create function
 - save every single line of a file into a list
 - write into a file
+- append an element to a list
+- loop through a list and print each element
+- create a dictonary
+- get an element from a dictonary
+- add a new key-value pair to a dictionary
+- create a class
+- import a module
+- create a dataframe;
+- add a new element to a Python set
