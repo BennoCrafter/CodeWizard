@@ -1,11 +1,14 @@
 import find_closest_element
 import difflib
+from pygments import highlight
+from pygments.lexers import PythonLexer
+from pygments.formatters import TerminalFormatter
 
 own_method = True
 questions = []
 answers = []
 data = open('data.txt').read().split("\n")
-ask = input("Input:")
+ask = input("Input:").lower()
 
 
 def split_answer_and_question():
@@ -27,7 +30,10 @@ def find_closest_match():
 
     answer = answers[(questions.index(question))]
     answer = answer.replace("$n", "\n").replace("$t", "\t")
-    print("My Answer is: \n ", answer)
+    answer = "\b" + answer
+    print("My Answer is: \n " + highlight(answer, PythonLexer(), TerminalFormatter()) + "\n")
+
+    # feedback
     feedback = input("Was this correct?(yes no):")
     if feedback.startswith("y"):
         feedback = "CORRECT!"
