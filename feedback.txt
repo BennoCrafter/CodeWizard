@@ -1,8 +1,20 @@
-Feedback: CORRECT!   ||||   Deeper Feedback: Question: how to create a dataframe Expected ask: create a dataframe Expected answer: import pandas as pd 
- # Create a DataFrame 
- data = {'Name': ['John', 'Jane', 'Jack', 'Jill'], 
- 	 'Age': [23, 25, 21, 18], 
- 	 'Gender': ['M', 'F', 'M', 'F']} 
- df = pd.DataFrame(data) 
- # print DataFrame 
- print(df)
+Feedback: CORRECT!   ||||   Deeper Feedback: Question: print a speifc elemnt of a datafrae Expected ask: print a specific positon of a dataframe Expected answer: import pandas as pd 
+ 
+ # Create a dataframe with names and ages 
+df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie', 'Debbie'],
+ 	 'Age': [25, 30, 35, 40]}) 
+ # Set the index to be the 'Name' column 
+ df.set_index('Name', inplace=True) 
+ 
+ # Print the age of the person with name 'Charlie' 
+ print(df.at['Charlie', 'Age']) 
+ 
+ Other Possibility: 
+ 
+ 
+ import pandas as pd 
+ # Create a dataframe with names and ages 
+  df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie', 'Debbie'], 
+ 	 'Age': [25, 30, 35, 40]}) 
+ # Print the age of the person at row 2 
+ print(df.at[2, 'Age'])

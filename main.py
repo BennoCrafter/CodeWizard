@@ -30,7 +30,6 @@ def find_closest_match():
 
     answer = answers[(questions.index(question))]
     answer = answer.replace("$n", "\n").replace("$t", "\t")
-    answer = "\b" + answer
     print("My Answer is: \n " + highlight(answer, PythonLexer(), TerminalFormatter()) + "\n")
 
     # feedback
