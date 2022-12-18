@@ -1,0 +1,15 @@
+code,is_for_loop
+
+for i in range(10):,1
+for i in range(5):,1
+for j in range(5):,1
+for i in range(10):,1
+for i in range(10):,1
+for x in y:,1
+for i in range(5):,1
+for j in range(5):,1
+print("Hello world!"),0
+print(x),0
+x = 0,0
+x = 0,0
+def function():,0
