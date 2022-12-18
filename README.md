@@ -1,6 +1,6 @@
 # CodeWizard
 ### What is CodeWizard?
-CodWizard is a language model designed to assist developers with programming tasks.
+CodeWizard is a language model designed to assist developers with programming tasks.
 It is not currently very effective because it lacks sufficient data, but I am working diligently to improve it.
 
 ### What are the Possibilitys?
