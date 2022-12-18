@@ -32,19 +32,6 @@ def find_closest_match():
     answer = answer.replace("$n", "\n").replace("$t", "\t")
     print("My Answer is: \n " + highlight(answer, PythonLexer(), TerminalFormatter()) + "\n")
 
-    # feedback
-    feedback = input("Was this correct?(yes no):")
-    if feedback.startswith("y"):
-        feedback = "CORRECT!"
-        deeper_feedback = "Question: " + ask + " Expected ask: " + question + " Expected answer: " + answer
-    elif feedback.startswith("n"):
-        feedback = "WRONG!"
-        deeper_feedback = "Question: " + ask + " Expected ask: " + question + " Expected answer: " + answer
-    with open('feedback.txt', 'w') as f:
-        f.write("Feedback: " + feedback + "   ||||   Deeper Feedback: " + deeper_feedback)
-
-    print("Thank you for your feedback!")
-
 
 split_answer_and_question()
 find_closest_match()
