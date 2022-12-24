@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "answer": "A lambda function is a small anonymous function in Python. It can take any number of arguments, but can only have one expression.\nLambda functions are often used as a shortcut for a function that is only used once, or as a way to pass a function as an argument to another function.\nA lambda function is a small anonymous function in Python. It can take any number of arguments, but can only have one expression.\n\nHere is an example of a simple lambda function that adds two numbers:\n\nCopy code\nadd = lambda x, y: x + y\nresult = add(3, 4)\nprint(result)  # Output: 7\nThis lambda function takes two arguments, x and y, and returns their sum. You can call the lambda function just like any other function, by using parentheses and passing in the arguments.",
+      "question": "What is a lambda function in Python?"
+    },
+    {
+      "answer": "Lists are mutable (i.e., they can be changed), while tuples are immutable (i.e., they cannot be changed). Lists are defined using square brackets (e.g., [1, 2, 3]), while tuples are defined using parentheses (e.g., (1, 2, 3)).",
+      "question": "What is the difference between a list and a tuple in Python?"
+    },
+    {
+      "answer": "You can use the int() function to convert a string to an int in Python. For example, int('123') will return 123.",
+      "question": "How do you convert a string to an int in Python?"
+    },
+    {
+      "answer": "A set is an unordered collection of unique elements in Python. Sets are defined using curly braces (e.g., {1, 2, 3}).",
+      "question": "What is a set in Python?"
+    },
+    {
+      "answer": "x = 3 \n for i in range(x): \n\t print(i) \n # Output: \n 1 \n 2 \n 3",
+      "question": "create for loop"
+    },
+    {
+      "answer": "def function(): \n \t pass",
+      "question": "create function"
+    },
+    {
+      "answer": "my_variable = \"Hello World\"",
+      "question": "create variable"
+    },
+    {
+      "answer": "my_list = [\"Hello\",\"World\"]",
+      "question": "create list"
+    },
+    {
+      "answer": "my_list = [\"Hello\",\"World\"] \n print(my_list[0]) \n print(my_list[1] \n # Output: \n Hello \n World",
+      "question": "print an element from a list"
+    },
+    {
+      "answer": "def function({x}):\n \t pass",
+      "question": "create function with parameter {x}"
+    },
+    {
+      "answer": "file = open('filename.txt').read().split(\"\\n\") \n print(file)",
+      "question": "save every single line of a file into a list"
+    },
+    {
+      "answer": "with open('filename.txt', 'w') as f: \n \t f.write('Hello World!')",
+      "question": "write into a file"
+    },
+    {
+      "answer": "my_list = [\"Hello\"] \n my_list.append(\"World\") \n print(my_list) \n# Output: [\"Hello\", \"World\"]",
+      "question": "append an element to a list"
+    },
+    {
+      "answer": "my_list = [\"Hello\", \"World\"] \n for element in my_list: \n \t print(element) \n # Output: Hello, World",
+      "question": "loop through a list and print each element"
+    },
+    {
+      "answer": "my_dict = {\"key1\": \"value1\", \"key2\": \"value2\"} \n print(my_dict) \n # Output: {\"key1\": \"value1\", \"key2\": \"value2\"}",
+      "question": "create a dictonary"
+    },
+    {
+      "answer": "my_dict = {\"key1\": \"value1\", \"key2\": \"value2\"} \n value = my_dict[\"key1\"] \n print(value) \n # Output: value1",
+      "question": "get an element from a dictonary"
+    },
+    {
+      "answer": "my_dict = {'a': 1, 'b': 2} \n my_dict['c'] = 3 \n \nprint(my_dict)",
+      "question": "add a new key-value pair to a dictionary"
+    },
+    {
+      "answer": "class MyClass: \n \t def __init__(self): \t \t self.my_variable = \"Hello World\" \n my_object = MyClass() \n print(my_object.my_variable) \n # Output: Hello World",
+      "question": "create a class"
+    },
+    {
+      "answer": "import math \\n result = math.sqrt(16) \\n print(result) \\n # Output: 4.0",
+      "question": "import a module"
+    },
+    {
+      "answer": "import pandas as pd \n # Create a DataFrame \n data = {'Name': ['John', 'Jane', 'Jack', 'Jill'], \n \t 'Age': [23, 25, 21, 18], \n \t 'Gender': ['M', 'F', 'M', 'F']} \n df = pd.DataFrame(data) \n # print DataFrame \n print(df)",
+      "question": "create a dataframe"
+    },
+    {
+      "answer": "my_set = {1, 2, 3} \n my_set.add(4) \n \n print(my_set)",
+      "question": "add a new element to a Python set"
+    },
+    {
+      "answer": "df = pd.DataFrame({\"Name\": [\"Alice\", \"Bob\", \"Charlie\", \"Dave\", \"Eve\"], \n \t \"Age\": [25, 30, 30, 40, 45], \n \t\"Gender\": [\"F\", \"M\", \"M\", \"M\", \"F\"]}) \n selected_columns = df[[\"Name\", \"Age\"]] \n print(selected_columns)",
+      "question": "select specific columns of a dataframe"
+    },
+    {
+      "answer": "import pandas as pd \n # Create a dataframe with names and ages \n  df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie', 'Debbie'], \n \t 'Age': [25, 30, 35, 40]}) \n # Print the age of the person at row 2 \n print(df.at[2, 'Age'])",
+      "question": "print a specific positon of a dataframe"
+    },
+    {
+      "answer": "import pandas as pd \n \n # Create a dataframe with names and ages \n df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie', 'Debbie'],\n \t 'Age': [25, 30, 35, 40]}) \n # Set the index to be the 'Name' column \n df.set_index('Name', inplace=True) \n \n # Print the age of the person with name 'Charlie' \n print(df.at['Charlie', 'Age'])",
+      "question": "print a specific positon of a dataframe clearly"
+    },
+    {
+      "answer": "print(\"Hello World!\") \n # Output: Hello World!",
+      "question": "print"
+    }
+  ]
+}
