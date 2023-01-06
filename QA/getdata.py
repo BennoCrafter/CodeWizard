@@ -21,7 +21,7 @@ print("Answer:", answer)
 if input("Do you want to write it into the Dataset(yes,no)?").startswith("y"):
     # write into file
     # Read the JSON file
-    with open('DataEn.json', 'r') as f:
+    with open('DataCodeExamples.json', 'r') as f:
         data = json.load(f)
 
     # Add a new item to the list
@@ -29,7 +29,7 @@ if input("Do you want to write it into the Dataset(yes,no)?").startswith("y"):
     data['data'].append(new_item)
 
     # Write the modified data back to the file
-    with open('DataEn.json', 'w') as f:
+    with open('DataCodeExamples.json', 'w') as f:
         json.dump(data, f, indent=2, sort_keys=True)
 
 else:

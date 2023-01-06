@@ -1,22 +1,6 @@
 {
   "data": [
     {
-      "answer": "A lambda function is a small anonymous function in Python. It can take any number of arguments, but can only have one expression.\nLambda functions are often used as a shortcut for a function that is only used once, or as a way to pass a function as an argument to another function.\nA lambda function is a small anonymous function in Python. It can take any number of arguments, but can only have one expression.\n\nHere is an example of a simple lambda function that adds two numbers:\n\nCopy code\nadd = lambda x, y: x + y\nresult = add(3, 4)\nprint(result)  # Output: 7\nThis lambda function takes two arguments, x and y, and returns their sum. You can call the lambda function just like any other function, by using parentheses and passing in the arguments.",
-      "question": "What is a lambda function in Python?"
-    },
-    {
-      "answer": "Lists are mutable (i.e., they can be changed), while tuples are immutable (i.e., they cannot be changed). Lists are defined using square brackets (e.g., [1, 2, 3]), while tuples are defined using parentheses (e.g., (1, 2, 3)).",
-      "question": "What is the difference between a list and a tuple in Python?"
-    },
-    {
-      "answer": "You can use the int() function to convert a string to an int in Python. For example, int('123') will return 123.",
-      "question": "How do you convert a string to an int in Python?"
-    },
-    {
-      "answer": "A set is an unordered collection of unique elements in Python. Sets are defined using curly braces (e.g., {1, 2, 3}).",
-      "question": "What is a set in Python?"
-    },
-    {
       "answer": "x = 3 \n for i in range(x): \n\t print(i) \n # Output: \n 1 \n 2 \n 3",
       "question": "create for loop"
     },
@@ -99,6 +83,18 @@
     {
       "answer": "print(\"Hello World!\") \n # Output: Hello World!",
       "question": "print"
+    },
+    {
+      "answer": "dict = {a\": 1,\"b\":2,\"c\":3} \n swapped_dictionary = {value: key for key, value in dict.items()|} \n #Output: \n {1: 'a', 2: 'b', 3: 'c'}",
+      "question": "how can i swapp the values with the keys in a dictonary"
+    },
+    {
+      "answer": "d = {'a': 1, 'b': 2, 'c': 3} \n values = my_dict.values() \n values_list = list(values) \n print(values_list)",
+      "question": "How to get all values from a dictonary"
+    },
+    {
+      "answer": "my_list = [1, 2, 3, 4, 2]\nfor item in my_list:\n\tif my_list.count(item) > 1:\n\tprint(f'{item} ist double')",
+      "question": "get doubles from list"
     }
   ]
 }
